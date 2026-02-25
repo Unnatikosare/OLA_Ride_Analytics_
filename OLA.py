@@ -105,7 +105,7 @@ elif page == "SQL Query Explorer":
 
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Total Rides", total_rides)
-    c2.metric("Successful", successful_rides)
+    c2.metric("Successful_rides", successful_rides)
     c3.metric("Customer Cancellation", cust_cancel)
     c4.metric("Driver Cancellation", drv_cancel)
     c5.metric("Revenue", f"₹ {revenue/1_000_000:.1f} M")
